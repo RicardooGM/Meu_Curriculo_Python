@@ -58,3 +58,40 @@ with col2:
 st.markdown("---")
 st.subheader("ATIVIDADES EXTRACURRILARES")
 
+col1, col2 = st.columns(2,vertical_alignment="center")
+
+with col1:
+    st.image("/workspaces/Meu_Curriculo_Python/imagemligaifs.jpg")
+    st.write("Ibmec Finance Society - IFS IBMEC-BH")
+
+    st.markdown("""
+- Treinamento em análise de empresas, modelagem financeira e valuation.
+- Desenvolvimento de um relatório completo de equity research no estilo CFA da Raia Drogasil para o IFS Trainee Challenge. Relatório CFA - Raia Drogasil IFS.
+""")
+    
+with col2:
+    st.image("Imagemligaconvidadoufmg.jpg")
+    st.write("Professor convidado - UFMG - Liga de Mercado e Negócios")
+
+    st.markdown("""
+                Conduzi uma aula a convite da Equipe de Empreendedorismo e Gestão da Liga de Mercado e Negócios da UFMG, abordando Valuation e Estudo de Viabilidade Econômico-Financeira. 
+- O tema principal da aula foi a simulação de um Estudo de Viabilidade de uma Academia Nova.
+- Promovi discussões sobre métodos de avaliação de empresas, análise financeira e aplicação de diferentes modelos de valuation em contextos reais, além de compartilhar experiências práticas do meu dia a dia como consultor.
+""")
+
+st.markdown("---")
+st.subheader("CURSOS")
+col1, col2, col3 = st.columns(3,vertical_alignment="center")
+
+with col1:
+    st.image("Screenshot 2026-01-26 172656.png")
+    st.write("*Alfa Research - Treinamento em Análise Fundamentalista e Valuation*")
+with col2:
+    st.image("Screenshot 2026-01-26 172726.png")
+    st.write("*M&A na Prática - Valuation e Modelagem Financeira*")
+with col3:
+    st.image("Screenshot 2026-01-26 172750.png")
+    st.write("*Análise Macro - Análise dos Demonstrativos Financeiros*")
+
+st.markdown("---")
+st.subheader("HABILIDADES")
