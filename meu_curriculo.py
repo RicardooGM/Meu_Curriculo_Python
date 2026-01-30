@@ -95,3 +95,4 @@ with col3:
 
 st.markdown("---")
 st.subheader("HABILIDADES")
+st.image("Habilildades - Gemini_Generated_Imagem.png")
