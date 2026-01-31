@@ -11,7 +11,7 @@ with st.sidebar:
 
 
 st.subheader("SUMÁRIO")
-st.write("Graduando em Ciências Econômicas pelo Ibmec-BH, com sólida base em Finanças Corporativas e experiência prática em Modelagem Financeira e Valuation de empresas. Possuo proficiência em Excel, PowerPoint, Word e Python, aplicando essas ferramentas em análises financeiras e estratégicas. Busco oportunidades de estágio em Finanças Corporativas e Valuation, com interesse especial em M&A, Investment Banking e Private Equity, para desenvolver ainda mais minhas habilidades técnicas e contribuir para a criação de valor em empresas e projetos.")
+st.write("Graduando em Ciências Econômicas pelo Ibmec-BH, com sólida base em Finanças Corporativas e experiência prática em Modelagem Financeira e Valuation de empresas. Possuo proficiência em Excel, PowerPoint, Word e Python, aplicando essas ferramentas em análises financeiras e estratégicas. Busco oportunidades de estágio em Finanças Corporativas e Valuation, com interesse especial em M&A, Investment Banking e Private Equity, para desenvolver ainda mais minhas habilidades técnicas e contribuir para a criação de valor em empresas e projetos. Atualmente atuou como Consultor na TRADE Consulting")
 
 st.markdown("---")
 
