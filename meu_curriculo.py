@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.title("Currículo - Ricardo Guimarães")
 
 with st.sidebar:
-    st.image("/workspaces/Meu_Curriculo_Python/Soul Plena - Trade1-2.jpg",caption='*Ricardo de Oliveira Guimarães*')
+    st.image("fotos/Soul Plena - Trade1-2.jpg",caption='*Ricardo de Oliveira Guimarães*')
 
 
 st.subheader("SUMÁRIO")
@@ -20,16 +20,16 @@ st.subheader("EXPERIÊNCIA")
 tab1, tab2 = st.tabs(["Consultor", "Alguns Projetos"])
 with tab1:
     st.subheader("Consultor de Empresas")
-    st.image("/workspaces/Meu_Curriculo_Python/trade-mensagem-de-natal.jpg",width=700)
+    st.image("fotos/trade-mensagem-de-natal.jpg",width=700)
 with tab2:
     
     col1, col2 = st.columns(2)
     with col1:
         st.write("Projeto - Varanda 1389")
-        st.image("/workspaces/Meu_Curriculo_Python/imagem1trade.jpg",width=500)
+        st.image("fotos/imagem1trade.jpg",width=500)
     with col2:
         st.write("Projeto - AB&B Engenharia")
-        st.image("/workspaces/Meu_Curriculo_Python/Imagem2Trade.jpg",width=500)
+        st.image("fotos/Imagem2Trade.jpg",width=500)
 
 st.markdown("""
 - Responsável pela **modelagem financeira**, **apresentações executivas** e **validação de análises** nas áreas de **Valuation**, **Estudos de Viabilidade** e **Business Plan**, com participação em **mais de 15 projetos** junto a clientes de diversos setores (principalmente **saúde**).
@@ -46,14 +46,14 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.write("Colégio Magnum - Ensino Médio Completo")
-    st.image("logomagnumv1.png",width=400)
+    st.image("fotos/logomagnumv1.png",width=400)
 with col2:
     st.write("""
     Bacharelado em Ciências Econômicas  
     IBMEC Belo Horizonte – MG  
     01/2022 – 12/2026
     """)
-    st.image("logoibmec.png",width=500)
+    st.image("fotos/logoibmec.png",width=500)
 
 st.markdown("---")
 st.subheader("ATIVIDADES EXTRACURRILARES")
@@ -61,7 +61,7 @@ st.subheader("ATIVIDADES EXTRACURRILARES")
 col1, col2 = st.columns(2,vertical_alignment="center")
 
 with col1:
-    st.image("/workspaces/Meu_Curriculo_Python/imagemligaifs.jpg")
+    st.image("fotos/imagemliga.jpg")
     st.write("Ibmec Finance Society - IFS IBMEC-BH")
 
     st.markdown("""
@@ -70,7 +70,7 @@ with col1:
 """)
     
 with col2:
-    st.image("Imagemligaconvidadoufmg.jpg")
+    st.image("fotos/Imagemligaconvidadoufmg.jpg")
     st.write("Professor convidado - UFMG - Liga de Mercado e Negócios")
 
     st.markdown("""
@@ -84,15 +84,15 @@ st.subheader("CURSOS")
 col1, col2, col3 = st.columns(3,vertical_alignment="center")
 
 with col1:
-    st.image("Screenshot 2026-01-26 172656.png")
+    st.image("fotos/Screenshot 2026-01-26 172656.png")
     st.write("*Alfa Research - Treinamento em Análise Fundamentalista e Valuation*")
 with col2:
-    st.image("Screenshot 2026-01-26 172726.png")
+    st.image("fotos/Screenshot 2026-01-26 172726.png")
     st.write("*M&A na Prática - Valuation e Modelagem Financeira*")
 with col3:
-    st.image("Screenshot 2026-01-26 172750.png")
+    st.image("fotos/Screenshot 2026-01-26 172750.png")
     st.write("*Análise Macro - Análise dos Demonstrativos Financeiros*")
 
 st.markdown("---")
 st.subheader("HABILIDADES")
-st.image("Habilildades - Gemini_Generated_Imagem.png")
+st.image("fotos/Habilildades - Gemini_Generated_Imagem.png")
